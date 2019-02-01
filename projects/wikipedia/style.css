@@ -1,0 +1,35 @@
+
+body {
+
+  background-color:#E3DADA;
+}
+
+#intro{
+  border-width: 2px;
+  border-color: black;
+}
+
+h2 {
+  font-family:Major Mono Display;
+  color: red;
+}
+
+h3{
+  font-family: Major Mono Display;
+  text-align: center;
+  color: red;
+}
+
+h4{
+  font-family: Major Mono Display;
+  text-align: left;
+  color: #183E4E;
+}
+
+p {
+  color: #2E5C70;
+  font-family: dosis;
+  font-size: 17px;
+   text-align: justify;
+   line-height: 150%;
+}
