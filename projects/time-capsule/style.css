@@ -1,0 +1,10 @@
+
+      body{
+        background-color: black;
+      }
+
+      p{
+        display: block;
+        align-items: center;
+        text-align: center;
+      }
