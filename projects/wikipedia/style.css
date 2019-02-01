@@ -4,7 +4,7 @@ body {
   background-color:#E3DADA;
 }
 
-#intro{
+.intro{
   border-width: 2px;
   border-color: black;
 }
@@ -12,6 +12,7 @@ body {
 h2 {
   font-family:Major Mono Display;
   color: red;
+  text-align: center;
 }
 
 h3{
@@ -23,12 +24,26 @@ h3{
 h4{
   font-family: Major Mono Display;
   text-align: left;
-  color: #183E4E;
+  color: #C62153;
+}
+
+button{
+  font-size: 18px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+ border-color: #2E5C70;
+ border-radius: 20px;
+  margin: 4px 2px;
+  font-family: Major Mono Display;
+  background-color:#E3DADA;
+  color: #2E5C70;
 }
 
 p {
+  text-indent: 4%;
   color: #2E5C70;
-  font-family: dosis;
+  font-family:EB Garamond;
   font-size: 17px;
    text-align: justify;
    line-height: 150%;

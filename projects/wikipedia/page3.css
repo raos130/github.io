@@ -1,0 +1,46 @@
+body{
+  background-color: black;
+}
+
+h2{
+  font-family: Bungee Shade;
+  color: white;
+  font-size: 50px;
+  word-spacing: 10px;
+}
+
+h3{
+  font-family: Bungee Shade;
+  text-align: center;
+  color: white;
+  font-size: 30px;
+}
+
+h4{
+  font-family: Bungee Shade;
+  text-align: left;
+  color:white;
+  font-size:20px;
+}
+
+button{
+  font-size: 28px;
+  text-align: center;
+  display: inline-block;
+ border-color: white;
+ border-radius: 20px;
+  margin: 4px 2px;
+  align-content: center;
+  font-family:Bungee Shade;
+  background-color:black;
+  color: white;
+}
+
+p {
+  text-indent: 4%;
+  color: #2E5C70;
+  font-family:Buda;
+  font-size: 21px;
+   text-align: justify;
+   line-height: 150%;
+}

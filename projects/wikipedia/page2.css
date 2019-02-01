@@ -1,0 +1,49 @@
+
+body{
+  background-image: url("space.png");
+
+}
+h2{
+font-family: Orbitron;
+text-align: left;
+color: white;
+font-size: 40px;
+letter-spacing: 2px;
+}
+
+h3{
+  font-family: Orbitron;
+  text-align: left;
+  color: white;
+  font-size: 25px;
+  letter-spacing: 2px;
+}
+
+h4{
+  font-family: Orbitron;
+  text-align: left;
+  color: white;
+  font-size: 20px;
+  letter-spacing: 5px;
+}
+
+p{
+  color:white;
+  font-family: 'Josefin Slab', serif;
+  line-height: 25px;
+  font-family: 18px;
+}
+
+button{
+  font-size: 28px;
+  text-align: center;
+  align-items: center;
+  text-decoration: none;
+  display: inline-block;
+ border-color: #2E5C70;
+ border-radius: 20px;
+  margin: 4px 2px;
+  font-family: Josefin Slab;
+  background-image: url("space.png");
+  color: white;
+}
