@@ -1,0 +1,72 @@
+body{
+  background-color: #E3F7F0;
+  font-family: futura;
+}
+
+p{
+  font-family: 'Old Standard TT', serif;;
+background-color: ;
+}
+
+.country{
+  font-family:futura;
+}
+
+.cat{
+  text-align: center;
+}
+
+h1{
+  text-align: center;
+  font-family: Futura;
+}
+
+h2{
+text-align: center;
+  font-family: Futura;
+}
+
+h3{
+text-align: center;
+  font-family: Futura;
+}
+
+h4{
+text-align: center;
+  font-family: Futura;
+}
+
+a{
+  text-align: center;
+  font-family: Futura;
+}
+
+.indie{
+  font-family: garamond;
+  color:blue;
+}
+
+.rnb{
+  font-family: cursive;
+  color:pink;
+}
+
+.indierock{
+  font-family: Baskerville;
+  color:green;
+}
+
+.rock{
+  font-family: monospace;
+  color: orange;
+}
+
+.rap{
+  font-family: sans-serif;
+  color: yellow;
+}
+
+.indian{
+  font-family:serif;
+  color: purple;
+}
