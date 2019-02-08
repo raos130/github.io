@@ -1,0 +1,78 @@
+.box{
+  position: static;
+   display: flex;
+}
+
+.container{
+  position: fixed;
+  padding: 20px;
+  z-index: 2;
+}
+
+.one{
+  position: fixed;
+   bottom: 20;
+   right: 0;
+   width: 200px;
+   height: 400px;
+   border: 3px solid #031344;
+}
+
+.two{
+  width: 150px;
+  height: 150px;
+  border: 3px solid #031344;
+}
+
+.three{
+ position: absolute;
+ top: 80px;
+ right: 0;
+ width: 2000px;
+ height: 20px;
+ background-color: #B7CBD7;
+}
+
+.three1{
+ position: absolute;
+ top: 110px;
+ right: 0;
+ width: 2000px;
+ height: 20px;
+ background-color: #B7CBD7;
+}
+
+.box1{
+  width: 200px;
+  height: 100vh;
+  margin-right: 10px;
+  background-color: #0D5675;
+}
+
+.box2{
+  width: 200px;
+  height: 1300px;
+  margin-right: 10px;
+  background-color: #0D445B;
+}
+
+.box3{
+  width: 200px;
+  height: 1400px;
+  margin-right: 10px;
+  background-color: #497384;
+}
+
+.box4{
+  width: 200px;
+  height: 1200px;
+  margin-right: 10px;
+  background-color: #304D59;
+}
+
+.box5{
+  width: 200px;
+  height: 1000px;
+    margin-right: 10px;
+  background-color: #043042;
+}
