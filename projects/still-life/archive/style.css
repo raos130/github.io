@@ -1,0 +1,43 @@
+body{
+  background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+}
+
+h1{
+  font-family: Bungee shade;
+  font-size: 60px;
+  color: white;
+  text-align: center;
+}
+
+
+h2{
+  font-family: Bungee Hairline;
+  text-align: center;
+  font-size: 30px;
+  color: white;
+}
+
+.column {
+  float: left;
+  width: 25%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+
+}
+
+
+li{
+  text-align: center;
+  color: white;
+  font-family: Major Mono Display;
+  font-size: 30px;
+}
+
+.ul{
+  list-style-type: none;
+}
