@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Robert Drew</title>
+  </head>
+  <body>
+<img src="images/mountain.png" height="600px" width="800px" class="mountain">
+<a href="sea.html"><button class="next"> Next </button></a>
+<a href="french.html"><button class="previous"> Previous </button></a>
+<a href="index.html"><button class="home"> Home </button></a>
+
+  </body>
+
+  <style>
+
+  body{
+    background-color: black;
+  }
+
+  .mountain{
+    display: block;
+ margin-left: auto;
+ margin-right: auto;
+  }
+
+  .next{
+   background-color: black;
+   border: 0.6px solid #7A7A7A;
+   border-radius: 10px;
+   color: white;
+   font-family: helvetica;
+   padding: 10px 16px;
+   text-align: center;
+   text-decoration: none;
+   display: inline-block;
+   font-size: 16px;
+   margin: 4px 2px;
+   -webkit-transition-duration: 0.4s; /* Safari */
+   transition-duration: 0.4s;
+   cursor: pointer;
+   float: right;
+   position: absolute;
+   top: 100px;
+   left: 48px;
+  }
+
+  .next:hover{
+    background-color:white;
+  color: black;
+  }
+
+  .previous{
+   background-color: black;
+   border-radius: 10px;
+   border: 0.6px solid #7A7A7A;
+   color: white;
+   font-family: helvetica;
+   padding: 10px 16px;
+   text-align: center;
+   text-decoration: none;
+   display: inline-block;
+   font-size: 16px;
+   margin: 4px 2px;
+   -webkit-transition-duration: 0.4s; /* Safari */
+   transition-duration: 0.4s;
+   cursor: pointer;
+   float: left;
+   position: absolute;
+   top: 50px;
+   left: 20px;
+  }
+
+  .previous:hover{
+    background-color:white;
+  color: black;
+  }
+
+
+  .home{
+   background-color: black;
+   border-radius: 10px;
+   border: 0.6px solid #7A7A7A;
+   color: white;
+   font-family: helvetica;
+   padding: 10px 16px;
+   text-align: center;
+   text-decoration: none;
+   display: inline-block;
+   font-size: 16px;
+   margin: 4px 2px;
+   -webkit-transition-duration: 0.4s; /* Safari */
+   transition-duration: 0.4s;
+   cursor: pointer;
+   float: center;
+   position: absolute;
+   top: 0px;
+   left: 40px;
+  }
+
+  .home:hover{
+    background-color:white;
+  color: black;
+  }
+  </style>
+</html>

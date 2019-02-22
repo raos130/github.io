@@ -125,14 +125,13 @@ body{
   left: 709px;
 }
 
-.items{
-
-}
 
 .fishing{
   height: 190px;
-  width: 280px;
-  content:url(images/fishing.png);
+  width: 210px;
+  transition: transform .2s;
+  object-fit:cover;
+  content:url(images/fishing.jpg);
   display: inline-block;
   max-height: 500px;
   position: absolute;
@@ -140,53 +139,105 @@ body{
   left: 10px;
 }
 
+.fishing:hover{
+transform: scale(1.2);
+z-index: 2;
+
+}
+
 .french{
   height: 190px;
-  width: 280px;
-  content:url(images/french.png);
+  width: 210px;
+  transition: transform .2s;
+  object-fit:cover;
+  content:url(images/french.jpg);
   display: inline-block;
   max-height: 500px;
   position: absolute;
   top: 200px;
-  left: 300px;
+  left: 230px;
+}
+
+.french:hover{
+transform: scale(1.2);
+z-index: 2;
+
 }
 
 .mountain{
   height: 190px;
   width: 280px;
+  transition: transform .2s;
   content:url(images/mountain.png);
   display: inline-block;
   max-height: 500px;
   position: absolute;
   top: 200px;
-  left: 590px;
+  left: 450px;
+}
+.mountain:hover{
+transform: scale(1.2);
+z-index: 2;
 }
 
 .sea{
   height: 190px;
   width: 210px;
+  transition: transform .2s;
   content:url(images/sea.png);
   display: inline-block;
   position: absolute;
   top: 200px;
   object-fit:cover;
-  left: 880px;
+  left: 740px;
 }
 
-.galaxy{
+.sea:hover{
+transform: scale(1.2);
+z-index: 2;
+}
+
+.wood{
   height: 190px;
-  width: 280px;
-  content:url(images/galaxy.png);
+  width: 260px;
+  transition: transform .2s;
+  object-fit:cover;
+  content:url(images/wood.png);
   display: inline-block;
   max-height: 500px;
   position: absolute;
   top: 200px;
-  left: 1100px;
+  left: 960px;
+}
+
+.wood:hover{
+transform: scale(1.2);
+z-index: 2;
+}
+
+
+.galaxy{
+  height: 190px;
+  width: 210px;
+  transition: transform .2s;
+  object-fit:cover;
+  content:url(images/galaxy.jpg);
+  display: inline-block;
+  max-height: 500px;
+  position: absolute;
+  top: 200px;
+  left: 1230px;
+}
+
+.galaxy:hover{
+transform: scale(1.2);
+z-index: 2;
 }
 
 .pink{
   height: 190px;
-  width: 200px;
+  width: 270px;
+  transition: transform .2s;
   object-fit:cover;
   content:url(images/pink.png);
   display: inline-block;
@@ -196,58 +247,88 @@ body{
   left: 10px;
 }
 
+.pink:hover{
+transform: scale(1.2);
+z-index: 2;
+}
+
 .sunlight{
   height: 190px;
   width: 280px;
+  transition: transform .2s;
   object-fit:cover;
   content:url(images/sunlight.png);
   display: inline-block;
   max-height: 500px;
   position: absolute;
   top: 400px;
-  left: 230px;
+  left: 290px;
+}
+
+.sunlight:hover{
+transform: scale(1.2);
+z-index: 2;
 }
 
 .lights{
   height: 190px;
-  width: 230px;
+  width: 270px;
+  transition: transform .2s;
   object-fit:cover;
   content:url(images/lights.png);
   display: inline-block;
   max-height: 500px;
   position: absolute;
   top: 400px;
-  left: 525px;
+  left: 580px;
+}
+
+.lights:hover{
+transform: scale(1.2);
+z-index: 2;
 }
 
 .watercolor{
   height: 190px;
   width: 280px;
+  transition: transform .2s;
   object-fit:cover;
   content:url(images/watercolor.png);
   display: inline-block;
   max-height: 500px;
   position: absolute;
   top: 400px;
-  left: 770px;
+  left: 870px;
+}
+
+.watercolor:hover{
+transform: scale(1.2);
+z-index: 2;
 }
 
 .forest{
   height: 190px;
-  width: 280px;
+  width: 260px;
+  transition: transform .2s;
   object-fit:cover;
   content:url(images/forest.png);
   display: inline-block;
   max-height: 500px;
   position: absolute;
   top: 400px;
-  left: 1060px;
+  left: 1160px;
+}
+
+.forest:hover{
+transform: scale(1.2);
+z-index: 2;
 }
 
 .flower{
   height: 190px;
   width: 280px;
   object-fit:cover;
+  transition: transform .2s;
   content:url(images/flower.png);
   display: inline-block;
   max-height: 500px;
@@ -256,10 +337,16 @@ body{
   left: 10px;
 }
 
+.flower:hover{
+transform: scale(1.2);
+z-index: 2;
+}
+
 .notebook{
   height: 190px;
   width: 240px;
   object-fit:cover;
+  transition: transform .2s;
   content:url(images/notebook.png);
   display: inline-block;
   max-height: 500px;
@@ -268,10 +355,16 @@ body{
   left: 310px;
 }
 
+.notebook:hover{
+transform: scale(1.2);
+z-index: 2;
+}
+
 .sky{
   height: 190px;
   width: 290px;
   object-fit:cover;
+  transition: transform .2s;
   content:url(images/sky.png);
   display: inline-block;
   max-height: 500px;
@@ -280,10 +373,16 @@ body{
   left: 570px;
 }
 
+.sky:hover{
+transform: scale(1.2);
+z-index: 2;
+}
+
 .palms{
   height: 190px;
   width: 260px;
   object-fit:cover;
+  transition: transform .2s;
   content:url(images/palms.png);
   display: inline-block;
   max-height: 500px;
@@ -292,14 +391,25 @@ body{
   left: 870px;
 }
 
+.palms:hover{
+transform: scale(1.2);
+z-index: 2;
+}
+
 .nike{
   height: 190px;
-  width: 260px;
+  width: 280px;
   object-fit:cover;
+  transition: transform .2s;
   content:url(images/nike.png);
   display: inline-block;
   max-height: 500px;
   position: absolute;
   top: 600px;
   left: 1140px;
+}
+
+.nike:hover{
+transform: scale(1.2);
+z-index: 2;
 }
