@@ -1,0 +1,114 @@
+body{
+  background-color: white;
+  overflow: hidden;
+}
+
+.line1{
+  height:900px;
+  width: 5px;
+  background-color: black;
+  position: absolute;
+  left: 200px;
+  top:-2px;
+}
+
+.shape1{
+  background-color: #EECF30;
+  animation-delay: 3s;
+  animation-name: shape1;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  position: absolute;
+  top: -1px;
+  left: 205px;
+  height: 453px;
+  width: 500px;
+}
+
+@keyframes shape1 {
+from {background-color:#EECF30;}
+to {background-color: #A983BA;}
+to {background-color: #6B5376;}
+}
+
+
+.line2{
+  height:900px;
+  width: 7px;
+  background-color: black;
+  position: absolute;
+  left: 700px;
+  top:-2px;
+}
+
+.shape2{
+  background-color: #ED3914;
+  animation-name: shape2;
+  animation-duration: 4s;
+  animation-delay: 3s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  position: absolute;
+  top: -1px;
+  left: 0px;
+  height: 453px;
+  width: 200px;
+}
+
+@keyframes shape2 {
+from {background-color:#ED3914;}
+to {background-color: #C4D6A0;}
+to {background-color: #5C6E39;}
+}
+
+.line3{
+  height:5px;
+  width: 900px;
+  background-color: black;
+  position: absolute;
+  left: 700px;
+  top:50px;
+}
+
+.shape3{
+  background-color: #084BBF;
+  animation-name: shape3;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  position: absolute;
+  top: 450px;
+  left: 0px;
+  height: 453px;
+  width: 200px;
+}
+
+
+
+.line4{
+  height:5px;
+  width: 9000px;
+  background-color: black;
+  position: absolute;
+  left: 0px;
+  top:450px;
+}
+
+.line5{
+  height:7px;
+  width: 9000px;
+  background-color: black;
+  position: absolute;
+  left: 200px;
+  top:600px;
+}
+
+.line6{
+  height:250px;
+  width: 5px;
+  background-color: black;
+  position: absolute;
+  left: 400px;
+  top:450px;
+}
