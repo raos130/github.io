@@ -13,7 +13,7 @@ body{
 }
 
 .shape1{
-  background-color: #EECF30;
+  background-color: #E0AD00;
   animation-delay: 3s;
   animation-name: shape1;
   animation-duration: 4s;
@@ -24,14 +24,16 @@ body{
   left: 205px;
   height: 453px;
   width: 500px;
+  background: linear-gradient(259deg, #E0AD00, #FFEF6D);
+  background-size: 400% 400%;
+  animation: shape1 5s ease infinite;
 }
 
 @keyframes shape1 {
-from {background-color:#EECF30;}
-to {background-color: #A983BA;}
-to {background-color: #6B5376;}
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
 }
-
 
 .line2{
   height:900px;
@@ -54,12 +56,15 @@ to {background-color: #6B5376;}
   left: 0px;
   height: 453px;
   width: 200px;
+  background: linear-gradient(259deg, #ED3914, #901B03);
+  background-size: 400% 400%;
+  animation: shape2 5s ease infinite;
 }
 
 @keyframes shape2 {
-from {background-color:#ED3914;}
-to {background-color: #C4D6A0;}
-to {background-color: #5C6E39;}
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
 }
 
 .line3{
@@ -78,22 +83,54 @@ to {background-color: #5C6E39;}
   animation-iteration-count: infinite;
   animation-direction: alternate;
   position: absolute;
+  background: linear-gradient(219deg, #53818F, #032D8B);
+  background-size: 400% 400%;
+  animation: shape3 5s ease infinite;
   top: 450px;
   left: 0px;
   height: 453px;
   width: 200px;
 }
 
-
+@keyframes shape3 {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
 
 .line4{
-  height:5px;
+  height:6px;
   width: 9000px;
   background-color: black;
   position: absolute;
   left: 0px;
   top:450px;
 }
+
+.shape4{
+  background-color: #084BBF;
+  position: absolute;
+  top: 50px;
+  left: 700px;
+  height: 400px;
+  width: 100px;
+  z-index: -1;
+  animation-name: shape4;
+  animation-duration: 4s;
+  animation-delay: 2s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  position: absolute;
+  background: linear-gradient(259deg, #53818F, #032D8B);
+  background-size: 400% 400%;
+  animation: shape4 5s ease infinite;
+}
+@keyframes shape4 {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+
 
 .line5{
   height:7px;
@@ -104,6 +141,22 @@ to {background-color: #5C6E39;}
   top:600px;
 }
 
+.shape5{
+  background-color: black;
+  position: absolute;
+  top: 450px;
+  left: 400px;
+  height: 150px;
+  width: 300px;
+  z-index: -1;
+}
+.shape5:hover{
+  background-color: white;
+  outline: 0;
+  border-radius: 0px;
+  box-shadow:0px 0px 30px 0px rgba(29, 27, 3);
+}
+
 .line6{
   height:250px;
   width: 5px;
@@ -111,4 +164,151 @@ to {background-color: #5C6E39;}
   position: absolute;
   left: 400px;
   top:450px;
+}
+
+.shape6{
+  background-color: #ED3914;
+  animation-name: shape6;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  position: absolute;
+  top: 605px;
+  left: 205px;
+  height:500px;
+  width: 495px;
+  background: linear-gradient(259deg, #ED3914, #901B03);
+  background-size: 400% 400%;
+  animation: shape6 5s ease infinite;
+
+}
+
+@keyframes shape6 {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+
+}
+
+
+.line7{
+  height:600px;
+  width: 5px;
+  background-color: black;
+  position: absolute;
+  left: 800px;
+  top:0px;
+}
+
+.shape7{
+  background-color: black;
+  position: absolute;
+  top:55px;
+  left: 805px;
+  width: 306px;
+  height: 375px;
+  padding: 10px;
+}
+
+.shape7:hover{
+  border-color: #E8D509;
+  background-color: white;
+  outline: 2;
+  border-radius: 0px;
+  box-shadow:0px 0px 30px 0px rgba(29, 27, 3);
+
+}
+
+
+.shape8{
+  position: absolute;
+  top:50px;
+  border-color: black;
+  border-style: solid;
+  border-width: 5px;
+  left: 1130px;
+  width: 306px;
+  height: 393px;
+  animation-name: shape8;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  position: absolute;
+  background: linear-gradient(259deg, #ED3914, #901B03);
+  background-size: 400% 400%;
+  animation: shape8 5s ease infinite;
+
+}
+@keyframes shape8 {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+
+.line9{
+  height:150px;
+  width: 7px;
+  background-color: black;
+  position: absolute;
+  left: 940px;
+  top:450px;
+}
+
+.shape9{
+  position: absolute;
+  top:450px;
+  left: 800px;
+  width: 140px;
+  height:150px;
+  z-index: -2;
+  animation-name: shape9;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  position: absolute;
+  background: linear-gradient(259deg, #E0AD00, #FFEF6D);
+  background-size: 400% 400%;
+  animation: shape9 5s ease infinite;
+}
+@keyframes shape9 {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+
+.shape10{
+  position: absolute;
+  top:0px;
+  left: 800px;
+  width: 650px;
+  height:150px;
+  z-index: -2;
+  background-color: #ECC400;
+  background: linear-gradient(259deg, #ECC400, #B79A0C);
+  background-size: 400% 400%;
+  animation: shape10 5s ease infinite;
+}
+@keyframes shape10 {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+
+.shape11{
+  position: absolute;
+  top:450px;
+  left: 940px;
+  width: 500px;
+  height:150px;
+  z-index: -2;
+  animation-name: shape11;
+  animation-direction: alternate;
+  background: linear-gradient(259deg, #53818F, #032D8B);
+  background-size: 400% 400%;
+  animation: shape11 5s ease infinite;
+}
+@keyframes shape11 {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
 }
