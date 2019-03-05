@@ -24,7 +24,7 @@ body{
   left: 205px;
   height: 453px;
   width: 500px;
-  background: linear-gradient(259deg, #E0AD00, #FFEF6D);
+  background: linear-gradient(259deg, #E0AD00, black);
   background-size: 400% 400%;
   animation: shape1 5s ease infinite;
 }
@@ -69,7 +69,7 @@ body{
 
 .line3{
   height:5px;
-  width: 900px;
+  width: 747px;
   background-color: black;
   position: absolute;
   left: 700px;
@@ -100,7 +100,7 @@ body{
 
 .line4{
   height:6px;
-  width: 9000px;
+  width: 1440px;
   background-color: black;
   position: absolute;
   left: 0px;
@@ -134,7 +134,7 @@ body{
 
 .line5{
   height:7px;
-  width: 9000px;
+  width: 1240px;
   background-color: black;
   position: absolute;
   left: 200px;
@@ -262,11 +262,12 @@ body{
   height:150px;
   z-index: -2;
   animation-name: shape9;
-  animation-duration: 4s;
+  animation-duration: 6s;
   animation-iteration-count: infinite;
   animation-direction: alternate;
+  animation-delay: 2s;
   position: absolute;
-  background: linear-gradient(259deg, #E0AD00, #FFEF6D);
+  background: linear-gradient(259deg, #E0AD00, black);
   background-size: 400% 400%;
   animation: shape9 5s ease infinite;
 }
@@ -283,10 +284,11 @@ body{
   width: 650px;
   height:150px;
   z-index: -2;
+  animation-delay: 3s;
   background-color: #ECC400;
-  background: linear-gradient(259deg, #ECC400, #B79A0C);
+  background: linear-gradient(259deg, #E0AD00, black);
   background-size: 400% 400%;
-  animation: shape10 5s ease infinite;
+  animation: shape10 7s ease infinite;
 }
 @keyframes shape10 {
     0%{background-position:0% 50%}
