@@ -26,7 +26,7 @@ body{
   width: 500px;
   background: linear-gradient(259deg, #E0AD00, black);
   background-size: 400% 400%;
-  animation: shape1 5s ease infinite;
+  animation: shape1 9s ease infinite;
 }
 
 @keyframes shape1 {
@@ -288,7 +288,7 @@ body{
   background-color: #ECC400;
   background: linear-gradient(259deg, #E0AD00, black);
   background-size: 400% 400%;
-  animation: shape10 7s ease infinite;
+  animation: shape10 13s ease infinite;
 }
 @keyframes shape10 {
     0%{background-position:0% 50%}
@@ -307,7 +307,7 @@ body{
   animation-direction: alternate;
   background: linear-gradient(259deg, #53818F, #032D8B);
   background-size: 400% 400%;
-  animation: shape11 5s ease infinite;
+  animation: shape11 6s ease infinite;
 }
 @keyframes shape11 {
     0%{background-position:0% 50%}
