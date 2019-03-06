@@ -1,0 +1,27 @@
+body{
+  background-color: black;
+}
+
+.vid{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.aeva{
+  font-family: gill sans;
+  color: white;
+  font-size: 30px;
+  letter-spacing: 20px;
+  text-align: center;
+}
+
+.project{
+  font-family: gill sans;
+  color: white;
+  font-size: 15px;
+  letter-spacing: 20px;
+  text-align: center;
+  
+}
