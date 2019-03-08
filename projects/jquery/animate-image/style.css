@@ -1,0 +1,6 @@
+.seagull{
+  cursor: pointer;
+  animation: seagull 10s infinite;
+  display: inline;
+  position: absolute;
+}

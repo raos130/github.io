@@ -1,0 +1,28 @@
+body{
+  text-align: center;
+}
+
+#target{
+  font-family: sans-serif;
+  display: inline-block;
+  justify-content: center;
+  font-size: 30px;
+  margin-top: 5%;
+  border: 2px solid black;
+  padding: 6px 10px;
+  cursor: pointer;
+
+}
+
+.text{
+  display: none;
+  font-family: serif;
+  font-size: 65px;
+  word-wrap: normal;
+  padding: 10px;
+  justify-content: center;
+}
+
+.text.active{
+  display: block;
+}
