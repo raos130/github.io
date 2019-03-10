@@ -1,1 +1,17 @@
-/* Your styles go here */
+.change{
+top: 20%;
+left: 20%;
+	position: absolute;
+}
+
+body{
+  background-color: black;
+}
+
+h1{
+  font-size: 40px;
+  text-align: center;
+  color: white;
+  font-family: 'Press Start 2P';
+
+}

@@ -1,1 +1,18 @@
-/* Your styles go here */
+body{
+  width: 30vw;
+	height: 200vw;
+	background-color: blue;
+	top: 0vw;
+	left: 0vw;
+	position: absolute;
+}
+
+#scroll{
+	color: black;
+	position: fixed;
+	top: 20vw;
+  line-height: 70px;
+	font-size: 300px;
+	text-align: center;
+	font-family: monoton;
+}
