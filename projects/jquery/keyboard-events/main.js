@@ -7,13 +7,13 @@ $(function() {
     console.log('keypress:', key);
 
  if ( key == 'h' ) {
-   img="file:///Users/simranrao/raos130.github.io/projects/jquery/keyboard-events/wave.gif";
+   img="http://www.reactiongifs.com/wp-content/uploads/2013/07/ralph-wave.gif";
  } else if ( key == 'e' ) {
-   img="file:///Users/simranrao/raos130.github.io/projects/jquery/keyboard-events/hi.gif";
+   img="https://media.giphy.com/media/aCpvwi2tuFQUE/giphy.gif";
  } else if ( key == 'l' ) {
-   img="file:///Users/simranrao/raos130.github.io/projects/jquery/keyboard-events/hey.gif";
+   img="https://media.giphy.com/media/3o7budMRwZvNGJ3pyE/giphy.gif";
  } else if ( key == 'o' ) {
-   img="file:///Users/simranrao/raos130.github.io/projects/jquery/keyboard-events/dog.gif";
+   img="https://media.giphy.com/media/3oKIPsx2VAYAgEHC12/giphy.gif";
  }
 
  if ( img ) {
