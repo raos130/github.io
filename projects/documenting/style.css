@@ -9,7 +9,7 @@ body{
 
 }
 
-.aeva{
+.project{
   font-family: gill sans;
   color: white;
   font-size: 30px;
@@ -17,11 +17,11 @@ body{
   text-align: center;
 }
 
-.project{
+.aeva{
   font-family: gill sans;
   color: white;
   font-size: 15px;
   letter-spacing: 20px;
   text-align: center;
-  
+
 }
