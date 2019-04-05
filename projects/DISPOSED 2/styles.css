@@ -1,0 +1,130 @@
+body{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #65908D;
+}
+
+
+.one{
+  letter-spacing: .18em;
+  color: white;
+  white-space: nowrap;
+  font-size: 35px;
+  font-family: niveau grotesk;
+  position: absolute;
+  top:20px;
+
+}
+
+button {
+margin-top:600px;
+display: inline-block;
+justify-content: space-evenly;
+font-size:23px;
+font-family: niveau grotesk;
+color:#65908D;
+padding: 7px;
+background-color: white;
+border:none;
+
+}
+
+button:hover{
+  background-color: black;
+  color:#65908D;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.queen{
+  height: 400px;
+  width: 500px;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  margin-top: 50px;
+  position: absolute;
+  top:100px;
+}
+
+.dalai{
+  height: 400px;
+  width: 600px;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  margin-top: 50px;
+  position: absolute;
+  top:100px;
+}
+
+.pope{
+  height: 400px;
+  width: 400px;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  margin-top: 50px;
+  position: absolute;
+  top:100px;
+}
+
+
+.mother{
+  height: 400px;
+  width: 340px;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  margin-top: 50px;
+  position: absolute;
+  top:80px;
+}
+
+
+.gandhi{
+  height: 400px;
+  width: 550px;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  margin-top: 50px;
+  position: absolute;
+  top:100px;
+}
+
+
+.kim{
+  height: 400px;
+  width: 550px;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  margin-top: 50px;
+  position: absolute;
+  top:100px;
+}
+
+.trump{
+  height: 400px;
+  width: 550px;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  margin-top: 50px;
+  position: absolute;
+  top:100px;
+}
+
+.anne{
+  height: 400px;
+  width: 620px;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  margin-top: 50px;
+  position: absolute;
+  top:100px;
+}
+
+.putin{
+  height: 400px;
+  width: 630px;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  margin-top: 50px;
+  position: absolute;
+  top:100px;
+}
+
+.hitler{
+  height: 400px;
+  width: 350px;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  margin-top: 50px;
+  position: absolute;
+  top:100px;
+}

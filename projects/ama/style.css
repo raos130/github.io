@@ -1,0 +1,134 @@
+body {
+height: 100vh;
+width: 100vw;
+padding: 0;
+display: grid;
+}
+
+.blur {
+  position: relative;
+}
+
+.blur::before {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-image: url('mountain.jpg');
+  background-repeat: no-repeat;
+  position: fixed;
+  background-position: center center;
+  background-size: cover;
+  -webkit-filter:blur(8px);
+}
+
+.blur-inside {
+  position: relative;
+}
+
+.circle{
+  height: 40px;
+  position: fixed;
+  top:600px;
+  width: 40px;
+  left: 690px;
+}
+
+.arrow{
+  height: 16px;
+  width: 16px;
+  position: fixed;
+  top:366px;
+  left: 814px;
+  background-color: rgba(255,255,255,0);
+  border: none;
+}
+
+.cancel{
+color:#C2C2C2;
+font-size: 13px;
+font-family: helvetica;
+z-index: 2;
+position: fixed;
+left: 690px;
+top:650px;
+
+}
+form{
+  transform: rotateY(0deg);
+}
+
+.box{
+  height: 30px;
+  border-radius: 6px;
+  display: block;
+  position: fixed;
+  top: 360px;
+  left:575px;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: center;
+  align-items: center;
+  margin-top: auto;
+  margin-bottom: auto;
+  width: 270px;
+  background-color: white;
+  opacity: 0.3;
+
+
+}
+
+#city{
+ border: none;
+  font-size: 17px;
+  color:white;
+  font-family: helvetica;
+  display: block;
+  position: fixed;
+  top:356px;
+  left:615px;
+  /* margin-left: auto;
+  margin-right: auto;
+  justify-content: center;
+  align-items: center;
+  margin-top:auto;
+  margin-bottom: auto; */
+  background-color: rgba(255,255,255,0);
+  text-align: center;
+}
+
+#people{
+  border: none;
+   font-size: 15px;
+   color:white;
+   font-family: helvetica;
+   display: block;
+   position: fixed;
+   top:201px;
+   left:622px;
+   background-color: rgba(255,255,255,0);
+   text-align: center;
+}
+
+#texts{
+  font-size: 15px;
+  color:white;
+  font-family: helvetica;
+  position: absolute;
+  top: 290px;
+  left: 495px;
+}
+
+img{
+position: fixed;
+left:654px;
+top:200px;
+  z-index: 3;
+  border-radius: 100%;
+  object-fit: contain;
+  width: 100px;
+  height: 100px;
+
+}

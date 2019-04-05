@@ -1,0 +1,10 @@
+
+ body {
+  font-family: OCR A Std;
+  font-size: 25px;
+  margin: 10px 50px;
+  letter-spacing: 4px;
+  color: green;
+  background-color: black;
+  line-height: 1.8em;
+}

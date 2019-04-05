@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+      <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+
+  </head>
+  <body>
+    <form id="target">
+    <input id="city" type="text" >
+    </form>
+
+<!-- <img src="one.jpg" alt="Avatar" style="width:200px" height="150px"> -->
+
+               <script type="text/javascript">
+
+
+               $("document").ready(function(){
+                 function getData(city){
+                   console.log(data);
+                 }
+                 });
+
+
+               var cities =  [
+                 "3333",
+                 "77Begumpet",
+                 "Alekha2209",
+                 "Maroon51998",
+           ]
+
+           var index = Math.floor(Math.random(4)* Math.floor(cities.length))
+           console.log(index)
+
+
+
+           var city = cities[index]
+         $('#city').val(city)
+
+         $( "#target" ).submit(function( event ) {
+         city = $("#city").val()
+         getData(city)
+         $( "#target" ).val("In" + city)
+         event.preventDefault();
+
+         });
+
+
+         </script>
+
+         <style>
+         body{
+           background-color: black;
+         }
+
+           input{
+             border: none;
+             font-size: 30px;
+             color: #E8E9E9;
+             opacity: 0.5px;
+             font-family: futura;
+             align-items: left;
+             background-color: rgba(255,255,255,0);
+             text-align: center;
+           }
+
+
+         </style>
+
+  </body>
+</html>

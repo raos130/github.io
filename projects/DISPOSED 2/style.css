@@ -1,0 +1,25 @@
+body{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #65908D;
+}
+
+button{
+  background-color: #FFFFFF;
+  letter-spacing: .18em;
+  white-space: nowrap;
+  color: #65908D;
+  font-size: 35px;
+  font-family:niveau grotesk;
+  margin-top: 300px;
+  width: 410px;
+  border: none;
+
+}
+
+button:hover{
+  background-color: black;
+  color:#65908D;
+   box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
