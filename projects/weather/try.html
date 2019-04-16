@@ -1,0 +1,122 @@
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title> Weather </title>
+
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+
+  </head>
+  <body>
+
+
+
+    <style media="screen">
+
+    body{
+    	font-family: helvetica neue, sans-serif;
+    	font-size: 5vw;
+    	color: black;
+    }
+
+
+
+    .videos{
+    	left: 30vw;
+        top: 8vw;
+    	position: fixed;
+    }
+
+    .link{
+        position: fixed;
+        bottom: 0vw;
+    }
+
+    a:link {
+        color: black;
+        background-color: transparent;
+        text-decoration: none;
+
+    }
+
+    a:visited {
+        color: black;
+        background-color: transparent;
+        text-decoration: none;
+    }
+
+    a:hover {
+        background-color: transparent;
+        text-decoration: underline;
+    }
+
+    a:active {
+        background-color: transparent;
+        text-decoration: underline;
+    }
+
+
+
+    </style>
+
+
+    <script type="text/javascript">
+    $(function(){
+    	console.log('hello')
+    });
+
+    var url= 'http://api.openweathermap.org/data/2.5/weather?zip=11101&units=imperial&APPID=304f0ab7f8f51d03ea3494dcc3847c71'
+
+    $.get(url, function(data) {
+      // The get request fires a callback function when the API request finishes
+      console.log(data);
+      // The data object contains all the information returned in the API
+      var weather = data.weather[0];
+      var weathertext = data.main;
+
+      var temp = data.main.temp;
+      var icon =data.weather[0].icon;
+      var image = '<img src="' + icon + '.gif">';
+
+
+      // In this case, the most interesting bit of data is in the weather key
+      // Now do something interesting with the data!
+      $('body').append(temp + 'c');
+
+    });
+
+
+    $.get(url, function(results){
+
+
+    	weathertext = results.weather[0].main;
+
+
+    for(var counter=0; counter< 1; counter++){
+    	console.log('counter', counter);
+    	console.log('weathertext', weathertext);
+
+
+              if(weathertext == 'Rain'){
+
+                 $('body').append("<img src='10d.gif'>");
+            }
+
+            	if(weathertext == 'Clear'){
+                    $('body').append('<div class="videos"><video width="520" height="440" controls autoplay loop class="video1"><source src="assets/walkingonsunshine.mp4" type="video/mp4"></video></div>');
+                 }
+
+              if(weathertext == 'Clouds'){
+                    $('body').append('<div class="videos"><video width="520" height="440" controls autoplay loop class="video1"><source src="assets/cloudnine.mp4" type="video/mp4"></video></div>');
+                 }
+          }
+    });
+
+
+
+
+
+
+        </script>
+
+  </body>
+</html>
