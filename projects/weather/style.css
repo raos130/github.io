@@ -4,8 +4,8 @@ body {
 	justify-content: center;
 	align-items: center;
 	height: 100vh;
-	background: rgb(86, 138, 103);
-	background: radial-gradient(circle, rgba(86, 138, 103, 1) 0%, rgba(97, 60, 110, 1) 100%);
+	background: rgb(245,223,223);
+	background: radial-gradient(circle, rgba(245,223,223,1) 0%, rgba(58,87,120,1) 100%);
 	margin: 0px;
 	color: white;
 	overflow: hidden;
