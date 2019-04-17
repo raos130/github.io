@@ -28,6 +28,7 @@ $("document").ready(function() {
 
 
         $('body').append(image);
+
         // let temp = data.main.temp;
         //     if (temp='clear sky'){
         //       $("#fire").html("<img id='weather-image' src='fire.gif'>")
