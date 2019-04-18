@@ -1,21 +1,19 @@
-
 {
-  "adjective1": "",
-  "adjective2": "",
-  "artSupply": "",
-  "computerSoftware": "",
-  "websiteName": "",
-  "artistName": "",
-  "celebrityName": "",
-  "noun1": "",
-  "noun2": "",
-  "pluralNoun1": "",
-  "pluralNoun2": "",
-  "pluralNoun3": "",
-  "verbEndingInIng": "",
-  "placeInNewYork": "",
-  "bodyPart": "",
-  "numbers": [],
-  "foods": []
+"adjective1": "tall",
+"adjective2": "hideous",
+"artSupply": "paint brush",
+"computerSoftware": "Safari",
+"websiteName": "Canvas.com",
+"artistName": "Trudy Hoang",
+"celebrityName": "Gordon Ramsey",
+"noun1": "therapy",
+"noun2": "psychic",
+"pluralNoun1": "markers",
+"pluralNoun2": "computers",
+"pluralNoun3": "men",
+"verbEndingInIng": "screaming",
+"placeInNewYork": "Times Square",
+"bodyPart": "elbow",
+"numbers": [23, 542, 5],
+"foods": ["apples", "olives", "cookies"]
 }
-  
