@@ -27,7 +27,7 @@ $("document").ready(function() {
 
 
 
-        $('body').append(image);
+        $('.image-container').html(image);
 
         // let temp = data.main.temp;
         //     if (temp='clear sky'){
