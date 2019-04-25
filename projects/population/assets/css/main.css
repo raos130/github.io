@@ -1,0 +1,13 @@
+body {
+  margin: 0;
+  display: flex;
+  /* This centers our sketch horizontally. */
+  justify-content: center;
+  /* This centers our sketch vertically. */
+  align-items: center;
+}
+
+/* i'm using the z index to move the slider on top of the container */
+.container {
+  z-index: 0;
+}
