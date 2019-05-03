@@ -1,16 +1,3 @@
-// var angle = 0;
-// var values = {
-//     us: {
-//       deathRate: 100,
-//       birthRate: 200
-//     },
-//     china: {
-//       deathRate: 200,
-//       birthRate: 200
-//     }
-// };
-//
-// // values.us.deathRate
 
 function setup() {
   let canvas = createCanvas(windowWidth, windowHeight);
@@ -19,325 +6,122 @@ function setup() {
 }
 var value = 0;
 var angle = 0;
+var values = {
+  //for every 1000 people -2017
+    na: {
+      deathRate: 100,
+      birthRate: 140
+    },
+    sa: {
+      deathRate: 181,
+      birthRate: 210
+    },
+    asia: {
+      deathRate: 316,
+      birthRate: 878
+    },
+    aus: {
+      deathRate: 82,
+      birthRate: 254
+    },
+    eur: {
+      deathRate: 441,
+      birthRate: 444
+      },
+    afr: {
+      deathRate: 200,
+      birthRate: 200
+      },
+    ant: {
+      deathRate: 90,
+      birthRate: 120
+    }
+};
+
+var deathRate = values.na.deathRate;
+
+// values.us.deathRate
 
 function setup() {
   createCanvas(windowWidth, windowHeight);
-  ellipseMode(CENTER)
+  ellipseMode(CENTER);
+  loop(5);
   angleMode(DEGREES);
   rectMode(CENTER);
   //default is 30, this reduces the frame rate
-  frameRate(13);
-  //ellipseMode(CENTER);
-  //noStroke();
+  frameRate(1);
+  colorMode(HSB, 255, 255);
+
 }
 
+
+$('.continent-button').click(function() {
+    deathRate = $(this).data('deathRate');
+    console.log('deathRate', deathRate);
+});
 
 function blurrySquares() {
 
-  // let c = color(172, 220, 169);
-  // let b = color(102, 139, 100);
-  let c = color(255);
-  let b = color(0);
-
-  noStroke();
-  fill(255);
-  push();
-  translate(windowWidth / 2, windowHeight / 2);
-  rotate(angle);
-  fill(c);
-  ellipse(0, 0, 1400, 1400);
-
-  pop();
+  let col1 = color(255);
+  let col2 = color(255);
 
   fill(255);
   push();
   translate(windowWidth / 2, windowHeight / 2);
   rotate(angle);
-  fill(b);
-  ellipse(0, 0, 1200, 1200);
-
-  pop();
-
-  fill(255);
-  push();
-  translate(windowWidth / 2, windowHeight / 2);
-  rotate(angle);
-  fill(c);
-  ellipse(0, 0, 1000, 1000);
-
-  pop();
-
-  fill(255);
-  push();
-  translate(windowWidth / 2, windowHeight / 2);
-  rotate(angle);
-  fill(b);
-  ellipse(0, 0, 950, 950);
-  pop();
-
-  fill(255);
-  push();
-  translate(windowWidth / 2, windowHeight / 2);
-  rotate(angle);
-  fill(c);
+  fill(col1);
   ellipse(0, 0, 850, 850);
 
   pop();
-
-  fill(255);
-  push();
-  translate(windowWidth / 2, windowHeight / 2);
-  rotate(-angle);
-  fill(b);
-  ellipse(0, 0, 700, 700);
-
-  pop();
-
-  fill(255);
-  push();
-  translate(windowWidth / 2, windowHeight / 2);
-  rotate(angle);
-  fill(c);
-  ellipse(0, 0, 550, 550);
-
-  pop();
-
-  fill(255);
-  push();
-  translate(windowWidth / 2, windowHeight / 2);
-  rotate(-angle);
-  fill(b);
-  ellipse(0, 0, 400, 400);
-
-  pop();
-
-  fill(255);
-  push();
-  translate(windowWidth / 2, windowHeight / 2);
-  rotate(angle);
-  fill(c);
-  ellipse(0, 0, 350, 350);
-
-  pop();
-
-  fill(255);
-  push();
-  translate(windowWidth / 2, windowHeight / 2);
-  rotate(-angle);
-  fill(b);
-  ellipse(0, 0, 200, 200);
-
-  pop();
-
-  fill(255);
-  push();
-  translate(windowWidth / 2, windowHeight / 2);
-  rotate(angle);
-  fill(c);
-  ellipse(0, 0, 150, 150);
-
-  pop();
-
 }
 
+
+let hue = 0;
+var angle = 0;
 
 
 function triSpin() {
 
-  let a = color(232, 196, 14);
+  let col3 = color(232, 196, 14);
   push();
 
+  // 5
+  pop();
+
   var x = 0;
-  fill(a);
-  noStroke();
+  x = x + 1;
+
   translate(windowWidth / 2, windowHeight / 2);
-  angle += 0.00;
-  rotate(angle);
-
-  x = x + 5;
 
   var x = 0;
+
   while (x <= width) {
-    fill(a);
-    angle += 0.000;
-    rotate(angle);
-    stroke(199, 32, 14);
-    triangle(5, 31, 31, 31, 31, 5);
-    x = x + 5;
-  }
-
-
-  pop();
-
-  var x = 0;
-  fill(a);
-  noStroke();
-  translate(windowWidth / 2, windowHeight / 2);
-  angle += 0.01;
-  rotate(angle);
-
-  x = x + 50;
-
-  var x = 0;
-  while (x <= width) {
-    fill(a);
-    angle += 0.001;
-    rotate(angle);
-    stroke(199, 32, 14);
-    triangle(30, 70, 70, 70, 70, 30);
-    x = x + 10;
-  }
-
-
-
-  pop();
-
-  var x = 0;
-  fill(a);
-  noStroke();
-  angle += 0.001;
-  rotate(angle);
-
-  x = x + 1;
-
-  var x = 0;
-  while (x <= width) {
-    fill(a);
+    fill(hue, 255, 255);
     angle += 0.004;
     rotate(angle);
-    stroke(199, 32, 14);
-    triangle(170, 120, 120, 120, 120, 170);
+    stroke(255);
+    triangle(300, deathRate, deathRate, deathRate, deathRate, 300);
     x = x + 1;
+    triHue();
   }
 
-  pop();
+}
 
-  var x = 0;
-  fill(a);
+function triHue() {
+  hue += 0.999;
+  if (hue > 255) hue = 0;
+   var x = 0;
+  fill(hue,255,255);
   noStroke();
-  angle += 0.001;
-  rotate(angle);
-
-  x = x + 1;
-
-  var x = 0;
-  while (x <= width) {
-    fill(a);
-    angle += 0.004;
-    rotate(angle);
-    stroke(199, 32, 14);
-    triangle(170, 200, 200, 200, 200, 170);
-    x = x + 1;
-  }
-
-  pop();
-
-  var x = 0;
-  fill(a);
-  noStroke();
-  angle += 0.001;
-  rotate(angle);
-
-  x = x + 1;
-
-  var x = 0;
-  while (x <= width) {
-    fill(a);
-    angle += 0.004;
-    rotate(angle);
-    stroke(199, 32, 14);
-    triangle(300, 240, 240, 240, 240, 300);
-    x = x + 1;
-  }
-
-  pop();
-
-  var x = 0;
-  fill(a);
-  noStroke();
-  angle += 0.001;
-  rotate(angle);
-
-  x = x + 1;
-
-  var x = 0;
-  while (x <= width) {
-    fill(a);
-    angle += 0.004;
-    rotate(angle);
-    stroke(199, 32, 14);
-    triangle(370, 300, 300, 300, 300, 340);
-    x = x + 1;
-  }
-
-  pop();
-
-  var x = 0;
-  fill(a);
-  noStroke();
-  angle += 0.001;
-  rotate(angle);
-
-  x = x + 1;
-
-  var x = 0;
-  while (x <= width) {
-    fill(a);
-    angle += 0.004;
-    rotate(angle);
-    stroke(199, 32, 14);
-    triangle(350, 360, 360, 360, 360, 350);
-    x = x + 1;
-  }
-
-  pop();
-
-  var x = 0;
-  fill(a);
-  noStroke();
-  angle += 0.001;
-  rotate(angle);
-
-  x = x + 4;
-
-  var x = 0;
-  while (x <= width) {
-    fill(a);
-    angle += 0.004;
-    rotate(angle);
-    stroke(199, 32, 14);
-    triangle(440, 410, 400, 400, 410, 440);
-    x = x + 4;
-  }
-
-  pop();
-
-  var x = 0;
-  fill(a);
-  noStroke();
-  angle += 0.0;
-  rotate(angle);
-
-
-  x = x + 4;
-
-  var x = 0;
-  while (x <= width) {
-    fill(a);
-    angle += 0.0;
-    rotate(angle);
-    stroke(199, 32, 14);
-    triangle(460, 530, 530, 530, 530, 460);
-    x = x + 4;
-  }
-
 
 }
 
 function draw() {
-  background(0);
+  background(255);
   blurrySquares();
   triSpin();
+  //  hue += 0.1;
+  // if (hue > 255) hue = 0;
   //change your var angle to increase everytime the draw function runs
   angle = angle + 1;
 }
