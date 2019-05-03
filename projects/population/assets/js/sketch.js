@@ -1,4 +1,3 @@
-
 function setup() {
   let canvas = createCanvas(windowWidth, windowHeight);
   canvas.position(0, 0);
@@ -16,36 +15,34 @@ var values = {
       deathRate: 181,
       birthRate: 210
     },
-    asia: {
+    as: {
       deathRate: 316,
       birthRate: 878
     },
-    aus: {
+    au: {
       deathRate: 82,
       birthRate: 254
     },
-    eur: {
+    eu: {
       deathRate: 441,
       birthRate: 444
       },
-    afr: {
+    af: {
       deathRate: 200,
       birthRate: 200
       },
-    ant: {
+    an: {
       deathRate: 90,
       birthRate: 120
     }
 };
-
 var deathRate = values.na.deathRate;
+
 $('.continent-button').click(function() {
     deathRate = $(this).data(deathRate);
     console.log('deathRate', deathRate);
 });
 
-
-// values.us.deathRate
 
 function setup() {
   createCanvas(windowWidth, windowHeight);
@@ -74,11 +71,8 @@ function triSpin() {
 
   var x = 0;
   x = x + 1;
-
   translate(windowWidth / 2, windowHeight / 2);
-
   var x = 0;
-
   while (x <= width) {
     fill(hue, 255, 255);
     angle += 0.004;
@@ -91,10 +85,9 @@ function triSpin() {
 
   // 6
     pop();
-
     var x = 0;
     x = x + 1;
-
+    
     var x = 0;
     while (x <= width) {
       fill(hue, 255, 255);
