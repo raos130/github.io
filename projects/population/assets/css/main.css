@@ -1,9 +1,9 @@
 body {
   margin: 0;
   display: flex;
-
   /* This centers our sketch horizontally. */
   justify-content: center;
+  font-family: 'Share Tech Mono';
   /* This centers our sketch vertically. */
   align-items: center;
 }
@@ -13,12 +13,18 @@ body {
   z-index: 0;
 }
 
+button{
+   font-size: 30px;
+   font-family: 'Share Tech Mono';
+   color: black;
+   border:none;
+   background-color: Transparent;
+}
 
 .continent{
- font-size: 40px;
+ font-size: 30px;
  top:10px;
  left:20px;
- line-height: 20px;
  position: absolute;
  font-family: 'Share Tech Mono';
  color: black;
@@ -28,47 +34,48 @@ body {
 .continent1:hover{
   background-color: black;
   line-height: 20px;
-  padding: 14px 25px;
+  padding: 13px 13px;
   color: white;
 }
 
 .continent2:hover{
   background-color: black;
   line-height: 20px;
-  padding: 14px 25px;
+    padding: 13px 13px;
   color: white;
 }
 
 .continent3:hover{
   background-color: black;
   line-height: 20px;
-  padding: 14px 25px;
+  padding: 13px 13px;
   color: white;
 }
 
 .continent4:hover{
   background-color: black;
   line-height: 20px;
-  padding: 14px 25px;
+  padding: 13px 13px;
   color: white;
 }
+
 .continent5:hover{
   background-color: black;
   line-height: 20px;
-  padding: 14px 25px;
+  padding: 13px 13px;
   color: white;
 }
 
 .continent6:hover{
   background-color: black;
   line-height: 20px;
-  padding: 14px 25px;
+  padding: 13px 13px;
   color: white;
 }
 
 .continent7:hover{
   background-color: black;
   line-height: 20px;
-  padding: 14px 25px;
+  padding: 13px 13px;
   color: white;
 }

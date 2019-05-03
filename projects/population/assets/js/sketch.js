@@ -48,11 +48,10 @@ function setup() {
   createCanvas(windowWidth, windowHeight);
   translate(windowWidth / 2, windowHeight / 2);
   ellipseMode(CENTER);
-  loop(5);
   angleMode(DEGREES);
 
   //default is 30, this reduces the frame rate
-  frameRate(1);
+  frameRate(4);
   colorMode(HSB, 255, 255);
 
 }
@@ -87,7 +86,7 @@ function triSpin() {
     pop();
     var x = 0;
     x = x + 1;
-    
+
     var x = 0;
     while (x <= width) {
       fill(hue, 255, 255);
