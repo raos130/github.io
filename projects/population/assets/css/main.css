@@ -1,6 +1,7 @@
 body {
   margin: 0;
   display: flex;
+
   /* This centers our sketch horizontally. */
   justify-content: center;
   /* This centers our sketch vertically. */
@@ -12,15 +13,17 @@ body {
   z-index: 0;
 }
 
+
 .continent{
-  font-size: 40px;
-  top:10px;
-  left:20px;
-  line-height: 20px;
-  position: absolute;
-  font-family: 'Share Tech Mono';
-  color: black;
+ font-size: 40px;
+ top:10px;
+ left:20px;
+ line-height: 20px;
+ position: absolute;
+ font-family: 'Share Tech Mono';
+ color: black;
 }
+
 
 .continent1:hover{
   background-color: black;

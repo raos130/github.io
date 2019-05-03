@@ -39,51 +39,35 @@ var values = {
 };
 
 var deathRate = values.na.deathRate;
+$('.continent-button').click(function() {
+    deathRate = $(this).data(deathRate);
+    console.log('deathRate', deathRate);
+});
+
 
 // values.us.deathRate
 
 function setup() {
   createCanvas(windowWidth, windowHeight);
+  translate(windowWidth / 2, windowHeight / 2);
   ellipseMode(CENTER);
   loop(5);
   angleMode(DEGREES);
-  rectMode(CENTER);
+
   //default is 30, this reduces the frame rate
   frameRate(1);
   colorMode(HSB, 255, 255);
 
 }
 
-
-$('.continent-button').click(function() {
-    deathRate = $(this).data('deathRate');
-    console.log('deathRate', deathRate);
-});
-
-function blurrySquares() {
-
-  let col1 = color(255);
-  let col2 = color(255);
-
-  fill(255);
-  push();
-  translate(windowWidth / 2, windowHeight / 2);
-  rotate(angle);
-  fill(col1);
-  ellipse(0, 0, 850, 850);
-
-  pop();
-}
-
-
 let hue = 0;
 var angle = 0;
-
 
 function triSpin() {
 
   let col3 = color(232, 196, 14);
   push();
+
 
   // 5
   pop();
@@ -105,6 +89,113 @@ function triSpin() {
     triHue();
   }
 
+  // 6
+    pop();
+
+    var x = 0;
+    x = x + 1;
+
+    var x = 0;
+    while (x <= width) {
+      fill(hue, 255, 255);
+      angle += 0.004;
+      rotate(angle);
+      stroke(255);
+      triangle(380, deathRate +55, deathRate+55, deathRate+55, deathRate+ 55, 380);
+      x = x + 1;
+      triHue();
+    }
+
+
+  // 7
+    pop();
+
+    var x = 0;
+    x = x + 1;
+
+    var x = 0;
+    while (x <= width) {
+      fill(hue, 255, 255);
+      angle += 0.004;
+      rotate(angle);
+      stroke(255);
+      triangle(400, deathRate +70, deathRate+70, deathRate+70, deathRate+ 70, 400);
+      x = x + 1;
+      triHue();
+    }
+
+
+  // 8
+    pop();
+
+    var x = 0;
+    x = x + 4;
+
+    var x = 0;
+    while (x <= width) {
+      fill(hue, 255, 255);
+      angle += 0.010;
+      rotate(angle);
+      stroke(255);
+      triangle(410, deathRate+100, deathRate+100, deathRate+100, deathRate+100, 410);
+      x = x + 2;
+       triHue();
+    }
+
+
+  // 9
+    pop();
+
+    var x = 0;
+    x = x + 5;
+
+    var x = 0;
+    while (x <= width) {
+       fill(hue, 255, 255);
+      angle += 0.0;
+      rotate(angle);
+      stroke(255);
+      triangle(420, deathRate +230, deathRate+230, deathRate+230, deathRate+230, 420);
+      x = x + 5;
+      triHue();
+
+    }
+
+    // 10
+      pop();
+
+      var x = 0;
+      x = x + 5;
+
+      var x = 0;
+      while (x <= width) {
+         fill(hue, 255, 255);
+        angle += 0.0;
+        rotate(angle);
+        stroke(255);
+        triangle(400, deathRate +250, deathRate+250, deathRate+250, deathRate+200, 400);
+        x = x + 5;
+        triHue();
+
+      }
+
+    // 11
+      pop();
+
+      var x = 0;
+      x = x + 5;
+
+      var x = 0;
+      while (x <= width) {
+        fill(hue, 255, 255);
+        angle += 0.0;
+        rotate(angle);
+        stroke(255);
+        triangle(700, deathRate +265, deathRate+300, deathRate+265, deathRate+300, 700);
+        x = x + 5;
+        triHue();
+
+      }
 }
 
 function triHue() {
@@ -113,19 +204,17 @@ function triHue() {
    var x = 0;
   fill(hue,255,255);
   noStroke();
-
 }
 
 function draw() {
   background(255);
-  blurrySquares();
+
   triSpin();
   //  hue += 0.1;
   // if (hue > 255) hue = 0;
   //change your var angle to increase everytime the draw function runs
   angle = angle + 1;
 }
-
 
 function windowResized() {
   resizeCanvas(windowWidth, windowHeight);
