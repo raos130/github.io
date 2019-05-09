@@ -1,81 +1,89 @@
-body {
-  margin: 0;
-  display: flex;
-  /* This centers our sketch horizontally. */
-  justify-content: center;
-  font-family: 'Share Tech Mono';
-  /* This centers our sketch vertically. */
-  align-items: center;
+abody {
+	margin: 0;
+	display: flex;
+	/* This centers our sketch horizontally. */
+	justify-content: center;
+	font-family: 'Share Tech Mono';
+	/* This centers our sketch vertically. */
+	align-items: center;
 }
 
 /* i'm using the z index to move the slider on top of the container */
 .container {
-  z-index: 0;
+	z-index: 0;
 }
 
 button{
-   font-size: 30px;
-   font-family: 'Share Tech Mono';
-   color: black;
-   border:none;
-   background-color: Transparent;
+	font-size: 30px;
+	font-family: 'Share Tech Mono';
+	color: black;
+	border:none;
+	background-color: Transparent;
 }
+
+.continent-button {
+	z-index: 2;
+}
+
+#defaultCanvas0 {
+	z-index: -1;
+}
+
 
 .continent{
- font-size: 30px;
- top:10px;
- left:20px;
- position: absolute;
- font-family: 'Share Tech Mono';
- color: black;
+	font-size: 30px;
+	top:10px;
+	left:20px;
+	position: absolute;
+	font-family: 'Share Tech Mono';
+	color: black;
 }
 
-
-.continent1:hover{
-  background-color: black;
-  line-height: 20px;
-  padding: 13px 13px;
-  color: white;
+.na:hover{
+	background-color: black;
+	line-height: 20px;
+	padding: 13px 13px;
+	color: white;
 }
 
-.continent2:hover{
-  background-color: black;
-  line-height: 20px;
-    padding: 13px 13px;
-  color: white;
+.sa:hover{
+	background-color: black;
+	line-height: 20px;
+	padding: 13px 13px;
+	color: white;
 }
 
-.continent3:hover{
-  background-color: black;
-  line-height: 20px;
-  padding: 13px 13px;
-  color: white;
+.as:hover{
+	background-color: black;
+	line-height: 20px;
+	padding: 13px 13px;
+	color: white;
 }
 
-.continent4:hover{
-  background-color: black;
-  line-height: 20px;
-  padding: 13px 13px;
-  color: white;
+.au:hover{
+	background-color: black;
+	line-height: 20px;
+	padding: 13px 13px;
+	color: white;
 }
 
-.continent5:hover{
-  background-color: black;
-  line-height: 20px;
-  padding: 13px 13px;
-  color: white;
+.eu:hover{
+	background-color: black;
+	line-height: 20px;
+	padding: 13px 13px;
+	color: white;
 }
 
-.continent6:hover{
-  background-color: black;
-  line-height: 20px;
-  padding: 13px 13px;
-  color: white;
+.af:hover{
+	background-color: black;
+	line-height: 20px;
+	padding: 13px 13px;
+	color: white;
 }
 
-.continent7:hover{
-  background-color: black;
-  line-height: 20px;
-  padding: 13px 13px;
-  color: white;
+.an:hover{
+	background-color: black;
+	line-height: 20px;
+	padding: 13px 13px;
+	color: white;
 }
