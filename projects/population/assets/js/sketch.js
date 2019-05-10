@@ -67,7 +67,7 @@ function setup() {
     translate(windowWidth / 2, windowHeight / 2);
     ellipseMode(CENTER);
     angleMode(DEGREES);
-    frameRate(2);
+    frameRate(3);
     colorMode(HSB, 255, 255);
 
 }
